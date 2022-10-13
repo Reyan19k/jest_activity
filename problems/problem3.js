@@ -2,10 +2,10 @@
 // If the number is a whole number (has no decimal place), return true
 // Otherwise, return false
 
-const myFunction = (n) => {
-    return ~~n === n;
+const addUp = (a, b) => {
+    return a + b;
 }
 
 module.exports = {
-    myFunction,
+    addUp,
 }
